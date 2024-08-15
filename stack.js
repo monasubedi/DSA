@@ -76,7 +76,7 @@ function isValid(s) {
                 return false;
             }
             const top = stack.pop();
-            if ((char === ")" && top !== "(") || (char === "]" && top !== "[") || (char === "}")) {
+            if ((char === ")" && top !== "(") || (char === "]" && top !== "[") || (char === "}" && top !== "{")) {
                 return false;
             }
         }
