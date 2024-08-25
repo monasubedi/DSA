@@ -64,7 +64,7 @@
 // var findKthPositive = function (arr, k) {
 //     let count = 0;
 //     for (let i = 0; i < arr.length; i++) {
-//         a
+//         
 //         if (arr[i] <= k + count) {
 //             count++;
 //         }
@@ -92,7 +92,7 @@
 //     return Math.max(posCount, negCount)
 // }
 
-// console.log(maximumCount([-2,-1,,0,0,3]));
+// console.log(maximumCount([-2,-1,-1,0,0,3]));
 
 //second-way
 var maximumCount = (nums) => {
